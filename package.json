@@ -4,7 +4,8 @@
   "description": "Near singleton counter example",
   "main": "index.js",
   "scripts": {
-    "test": "asp"
+    "test": "asp",
+    "build": "asb"
   },
   "repository": {
     "type": "git",
