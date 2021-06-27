@@ -1,0 +1,22 @@
+{
+  "name": "singleton-counter",
+  "version": "1.0.0",
+  "description": "Near singleton counter example",
+  "main": "index.js",
+  "scripts": {
+    "test": "asp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyle83/Near-Singleton-Counter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyle83/Near-Singleton-Counter/issues"
+  },
+  "homepage": "https://github.com/andyle83/Near-Singleton-Counter#readme",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.1"
+  }
+}
