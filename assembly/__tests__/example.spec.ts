@@ -38,4 +38,8 @@ describe("Counter ", () => {
     decrementCounter(4);
     expect(getCounter()).toBe(0, "4 - 4 = 0");
   });
+
+  it("should be eve's account", () => {
+    expect(context.contractName).toBe("eve");
+  });
 });
