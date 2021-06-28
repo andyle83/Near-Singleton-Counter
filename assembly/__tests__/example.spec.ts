@@ -1,7 +1,15 @@
-import { hello_near } from '..';
+import {
+  getCounter,
+  resetCounter,
+  incrementCounter,
+  decrementCounter
+} from '../index';
 
-describe("example", () => {
-  it("should return hello near", () => {
-    expect(hello_near()).toStrictEqual("hello near");
-  })
+import { context, storage, VM } from 'near-sdk-as';
+
+describe("Counter ", () => {
+  it("should increment by one", () => {
+      incrementCounter(1);
+      expect(getCounter()).toBe(1, "counter should be one after a single increment.");
+  });
 });
